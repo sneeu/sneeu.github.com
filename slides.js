@@ -17,4 +17,7 @@ $(function () {
 	}
 
 	$('body').click(nextSlide);
-})
+	$('a').click(function (event) {
+		event.stopPropagation();
+	});
+});
