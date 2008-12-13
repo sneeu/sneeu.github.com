@@ -11,50 +11,52 @@
 
 	<link rel="openid.server" href="http://www.myopenid.com/server" />
 	<link rel="openid.delegate" href="http://sneeu.myopenid.com/" />
-
 	<link rel="openid2.provider" href="http://www.myopenid.com/server" />
 	<link rel="openid2.local_id" href="http://sneeu.myopenid.com/" />
+
+	<link charset="utf-8" href="base.css" media="screen,projection" rel="stylesheet" type="text/css"  />
 
 </head>
 <body class="vcard">
 
-	<h1 class="fn n">
-		<a class="email" href="mailto:john@sneeu.com">
-			<span class="given-name">John</span>
-			<span class="additional-name">Stewart</span>
-			<span class="family-name">Sutherland</span>
-		</a>
+	<ol id="slides">
+		<li id="name">
+			<h1 class="fn n">
+				<span class="given-name">John</span>
+				<span class="additional-name">Stewart</span>
+				<span class="family-name">Sutherland</span>
+			</h1>
+		</li>
 
-		<img alt="Avatar" id="avatar" src="avatar.jpg" />
-	</h1>
+		<li id="online">
+			<h2>Online</h2>
+			<p><a class="email" href="mailto:john@sneeu.com" title="Drop me an email">john@sneeu.com</a></p>
+			<ul>
+				<li><a class="url" href="http://sneeu.com/" rel="me">sneeu.com</a></li>
+				<li><a class="url" href="http://flickr.com/photos/sneeu/" rel="me">Flickr</a></li>
+				<li><a class="url" href="http://last.fm/user/sneeu/" rel="me">Last.fm</a></li>
+				<li><a class="url" href="http://delicious.com/sneeu/" rel="me">Delicious</a></li>
+				<li><a class="url" href="http://twitter.com/sneeu/" rel="me">Twitter</a></li>
+				<li><a class="url" href="http://www.dopplr.com/traveller/sneeu" rel="me">Dopplr</a></li>
+			</ul>
+		</li>
 
-	<div id="online">
-		<h2>Online</h2>
-		<ul>
-			<li><a class="url" href="http://sneeu.com/" rel="me">sneeu.com</a></li>
-			<li><a class="url" href="http://flickr.com/photos/sneeu/" rel="me">Flickr</a></li>
-			<li><a class="url" href="http://last.fm/user/sneeu/" rel="me">Last.fm</a></li>
-			<li><a class="url" href="http://delicious.com/sneeu/" rel="me">Delicious</a></li>
-			<li><a class="url" href="http://twitter.com/sneeu/" rel="me">Twitter</a></li>
-			<li><a class="url" href="http://www.dopplr.com/traveller/sneeu" rel="me">Dopplr</a></li>
-		</ul>
-	</div>
+		<li id="offline">
+			<h2>Offline</h2>
+			<p><a href="tel:+44 7776 055 955" class="tel">+44 7776 055 955</a></p>
 
-	<div id="offline">
-		<h2>Offline</h2>
-		<p class="tel">+44 7776 055 955</p>
+			<div class="adr" id="address">
+				<span class="street-address">1/1 Sheriff Park</span>
+				<span class="locality">Edinburgh</span>,
+				<span class="postal-code">EH6 6DX</span>
+				<span class="country-name">United Kingdom</span>
+			</div>
+		</li>
 
-		<div class="adr" id="address">
-			<span class="street-address">1/1 Sheriff Park</span>
-			<span class="locality">Edinburgh</span>,
-			<span class="postal-code">EH6 6DX</span>
-			<span class="country-name">United Kingdom</span>
-		</div>
-	</div>
-
-	<div id="contacts">
-		<h2>Friends &amp; family</h2>
-	</div>
+		<li id="credits">
+			<img alt="Avatar" src="avatar.jpg" />
+		</li>
+	</ol>
 
 </body>
 </html>
