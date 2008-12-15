@@ -6,7 +6,7 @@ html {
 body {
 	background: #fff;
 	cursor: pointer;
-	font: 100%/1.5em "Helvetica Neue";
+	font: 100%/1.5em "Helvetica Neue","Helvetica",Arial,sans-serif;
 	height: 100%;
 	overflow: hidden;
 }
